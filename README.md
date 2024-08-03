@@ -17,10 +17,12 @@ How to use:
 ## Files
 ### In input folder
 *font.png*
+
 The font image.
 dimensions: 2827x16 px (11x16 px per character).
 
 *font.txt*
+
 The informations of the font.
 
 In first line, the font name
