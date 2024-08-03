@@ -14,13 +14,13 @@ How to use:
     output is optional, the default value is src\output\font.tmf
 
 
-##Files
-  In input folder:
-    font.png:
+## Files
+  ### In input folder
+    *font.png*
       The font image.
       dimensions: 2827x16 px (11x16 px per character).
 
-    font.txt:
+    *font.txt*
       The informations of the font.
 
       In first line, the font name
@@ -29,5 +29,5 @@ How to use:
       If the digits got a "+" (or other char) after then the char size is not equal.
       For example: 4+ -> [4, 5] -> 4 to left, 5 to right
 
-  In output folder:
+  ### In output folder:
     There will be the output file when the program has finished compiling.
