@@ -51,8 +51,11 @@ public class TMFCompiler {
             return;
         }
         
+        File outputDir = new File(source + "output");
         File fontImgFile = new File(source + args[0]);
         File fontFileInfosFile = new File(source + args[1]);
+        
+        outputDir.mkdir();
         
         if (!fontImgFile.exists()) {
             System.out.println("Error: the file \"" + fontImgFile.getAbsolutePath() + "\" does not exists.");
@@ -72,6 +75,7 @@ public class TMFCompiler {
         fontImg = new FontImgReader(fontImgFile.getAbsolutePath()).getImage();
         fontFileInfos = new String(new FontInfoReader(fontFileInfosFile.getAbsolutePath()).getContent(), StandardCharsets.UTF_8).split("\n");
         outputFileRelative = Paths.get(source).relativize(Paths.get(outputFile.getAbsolutePath())).toString();
+        
         
         if (outputFile.exists()) {
             Scanner scanner = new Scanner(System.in);
