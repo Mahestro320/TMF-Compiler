@@ -15,19 +15,19 @@ How to use:
 
 
 ## Files
-  ### In input folder
-    *font.png*
-      The font image.
-      dimensions: 2827x16 px (11x16 px per character).
+### In input folder
+*font.png*
+The font image.
+dimensions: 2827x16 px (11x16 px per character).
 
-    *font.txt*
-      The informations of the font.
+*font.txt*
+The informations of the font.
 
-      In first line, the font name
+In first line, the font name
 
-      The 256 next digits is the max size x of an character in the image, starting from the center.
-      If the digits got a "+" (or other char) after then the char size is not equal.
-      For example: 4+ -> [4, 5] -> 4 to left, 5 to right
+The 256 next digits is the max size x of an character in the image, starting from the center.
+If the digits got a "+" (or other char) after then the char size is not equal.
+For example: 4+ -> [4, 5] -> 4 to left, 5 to right
 
-  ### In output folder:
-    There will be the output file when the program has finished compiling.
+### In output folder:
+There will be the output file when the program has finished compiling.
