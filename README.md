@@ -14,7 +14,7 @@ How to use:
     output is optional, the default value is src\output\font.tmf
 
 
-Files:
+##Files
   In input folder:
     font.png:
       The font image.
