@@ -6,7 +6,7 @@ How to use:
   1. you need java to run this program. https://www.java.com/en/download/
 
   2. run with:
-    java Main.java <fontImage> <fontInfo> <output (optional)>
+    java Main.java _fontImage_ _fontInfo_ _output (optional)_
 
     *all the parameters is an path relative to src\
 
