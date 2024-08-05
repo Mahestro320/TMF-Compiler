@@ -1,4 +1,4 @@
-# TMF-Compiler v1.1
+# TMF-Compiler v1.2
 A compiler for pixelated fonts.
 
 
