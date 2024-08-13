@@ -11,7 +11,7 @@ the program will crash less if there is an error, because it is interpreted with
 How to use:
 > you need java to run this program. https://www.java.com/en/download/
 
-> run with: java Main.java _fontImage_ _fontInfo_ _output (optional)_
+> run with: java Main.java _*fontImage*_ _*fontInfo*_ _*output (optional)*_
 
 *all the parameters is an path relative to src\
 output is optional, the default value is src\output\font.tmf
