@@ -8,7 +8,7 @@ If there is an error in the input image or image information file, it will be sp
 the program will crash less if there is an error, because it is interpreted with an try-catch.
 
 
-How to use:
+## How to use
 > you need java to run this program. https://www.java.com/en/download/
 
 > run with: java Main.java _*fontImage*_ _*fontInfo*_ _*output (optional)*_
