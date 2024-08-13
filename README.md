@@ -1,7 +1,7 @@
 # TMF-Compiler v1.4
 A compiler for pixelated fonts.
 
-## Informations of uupdate
+## Informations of update
 ### More understandable errors
 If there is an error in the input image or image information file, it will be specifieds
 ### works better
