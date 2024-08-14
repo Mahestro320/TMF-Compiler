@@ -2,7 +2,8 @@
 A compiler for pixelated fonts.
 
 ## How to use
-> you need java to run this program. https://www.java.com/en/download/\n
+> you need java to run this program. https://www.java.com/en/download/.
+> 
 > run with: ```java Main.java [fontImage] [fontInfo] [output (optional)]```
 
 *all the parameters is an path relative to src\
