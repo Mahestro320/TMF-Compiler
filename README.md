@@ -29,20 +29,16 @@ There will be the output file when the program has finished compiling.
 
 ## Update informations
 ### update v1.5
-> more lisible code
-> 
+#### more lisible code
 > the code is more lisible now
 
-> warnings infos
-> 
+#### warnings infos
 > warnings are now displayed next to the step making a warning
 
 ### update v1.4
-> More understandable errors
-> 
+#### More understandable errors
 > If there is an error in the input image or image information file, it will be specifieds
 
-> works better
-> 
+#### works better
 > the program will crash less if there is an error, because it is interpreted with an try-catch.
 
