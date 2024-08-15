@@ -1,4 +1,4 @@
-# TMF Compiler v1.5
+# TMF Compiler v1.6
 A compiler for pixelated fonts.
 
 ## How to use
@@ -6,39 +6,42 @@ A compiler for pixelated fonts.
 > 
 > run with: ```java Main.java [fontImage] [fontInfo] [output (optional)]```
 
-*all the parameters is an path relative to src\
-output is optional, the default value is src\output\font.tmf
+*all the parameters is an path relative to the root directory.
+output is optional, the default value is output\font.tmf
 
 
 ## Files
 ### In input folder
 > font.png
 > 
-> The font image.  
+> The font image.
 > dimensions: 2827x16 px (11x16 px per character).
 
 
-> font.txt
+> font.json
 > 
-> The informations of the font.
-> In first line, the font name. The 256 next digits is the max size x of an character in the image, starting from the center.
-> If the digits got a "+" (or other char) after then the char size is not equal. For example: ```4+ -> [4, 5] -> 4``` to left, 5 to right
+> The informations of the font in an JSON.
+> The font name, in string, with the "fontName" key. Next the chars, with "chars" key. It's an list of 256 values, it's the max size x of an character in the image, starting from the center. If the value is null, then the character is null. if the value is an list, then the char size is not equal. For example: ```[4, null] -> 4 to left, 5 to right```
 
 ### In output folder:
 There will be the output file when the program has finished compiling.
 
 ## Update informations
-### update v1.5
-#### more lisible code
+### update v1.6
+#### Replacing "font.txt"
+> the file font.txt is now replaced by font.json
+
+### Update v1.5
+#### More lisible code
 > the code is more lisible now
 
-#### warnings infos
+#### Warnings infos
 > warnings are now displayed next to the step making a warning
 
-### update v1.4
+### Update v1.4
 #### More understandable errors
 > If there is an error in the input image or image information file, it will be specifieds
 
-#### works better
+#### Works better
 > the program will crash less if there is an error, because it is interpreted with an try-catch.
 
