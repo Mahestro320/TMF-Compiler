@@ -1,5 +1,8 @@
-# TMF Compiler v1.6
-A compiler for pixelated fonts.
+# TMF Compiler v1.7
+A compiler for pixelated fonts
+
+> authors: Mahestro_320
+> copyright © Commys corporation
 
 ## How to use
 > you need java to run this program. https://www.java.com/en/download/.
@@ -27,21 +30,25 @@ output is optional, the default value is output\font.tmf
 There will be the output file when the program has finished compiling.
 
 ## Update informations
-### update v1.6
+### Update v1.7
+#### No changes visually
+> No changes visually but the code is more lisible.
+
+### Update v1.6
 #### Replacing "font.txt"
-> the file font.txt is now replaced by font.json
+> The file font.txt is now replaced by font.json, including jackson dependency.
 
 ### Update v1.5
 #### More lisible code
-> the code is more lisible now
+> The code is more lisible now
 
 #### Warnings infos
-> warnings are now displayed next to the step making a warning
+> Warnings are now displayed next to the step making a warning
 
 ### Update v1.4
 #### More understandable errors
 > If there is an error in the input image or image information file, it will be specifieds
 
 #### Works better
-> the program will crash less if there is an error, because it is interpreted with an try-catch.
+> The program will crash less if there is an error, because it is interpreted with an try-catch.
 
