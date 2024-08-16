@@ -6,6 +6,8 @@ public class Main {
 	/*
 	 * TMF Font Compiler v1.7, created the 08.01.24
 	 * copyright © Commys corporation.
+  	 * 
+	 * author: Mahestro_320
 	 * 
 	 * For more informations, please visit
 	 * https://github.com/Mahestro320/TMF-Compiler
