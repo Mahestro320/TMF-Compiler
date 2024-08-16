@@ -1,7 +1,7 @@
 # TMF Compiler v1.7
 A compiler for pixelated fonts
 
-> authors: Mahestro_320
+> author: Mahestro_320
 > 
 > copyright © Commys corporation
 
