@@ -1,4 +1,4 @@
-# TMF Compiler v1.9
+# TMF Compiler v2.0
 A compiler for pixelated fonts
 
 > author: Mahestro_320
@@ -31,6 +31,10 @@ output is optional, the default value is output\font.tmf
 There will be the output file when the program has finished compiling.
 
 ## Update informations
+### Update v2.0
+#### No changes visually
+> No changes visually but the code is more lisible and some files have been renamed
+
 ### Update v1.9
 #### Use Syserr
 > The program use now Syserr (System.err) for errors.
