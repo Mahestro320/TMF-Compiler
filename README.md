@@ -1,4 +1,4 @@
-# TMF Compiler v1.8
+# TMF Compiler v1.9
 A compiler for pixelated fonts
 
 > author: Mahestro_320
@@ -31,6 +31,10 @@ output is optional, the default value is output\font.tmf
 There will be the output file when the program has finished compiling.
 
 ## Update informations
+### Update v1.9
+#### Use Syserr
+> The program use now Syserr (System.err) for errors.
+
 ### Update v1.8
 #### Better support for JSON errors
 > Better support for errors in JSON file, the font chars infos
